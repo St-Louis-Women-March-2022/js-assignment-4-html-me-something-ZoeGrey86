@@ -1,1 +1,68 @@
 /* Write your CSS here! */
+body {
+   margin: 8px;
+   display: block; 
+   background-color: burlywood;
+}
+#mainHeading  {
+color: red;
+}
+.funParagraph{
+color: green;
+font-size: large;
+}
+h3{
+    padding-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+    text-align: center;
+    border: 13px solid black;
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(206, 186, 159);
+    padding-block: 48px;
+    width: 500px;
+    padding-right: auto;
+    padding-left: auto;
+}
+img{
+    display:inline-block;
+    align-self: center;
+    border: 33px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border: 16px solid black;
+}
+#leftOf {
+    display:inline-block;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 16px solid black;
+}
+#rightOf {
+    display:inline-block;
+    width:50%;
+    align-items: center;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 16px solid black;
+}
+.longSection{
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
+}
